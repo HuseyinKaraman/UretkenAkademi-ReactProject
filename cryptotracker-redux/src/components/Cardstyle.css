@@ -1,0 +1,101 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.card
+{
+  background: #EEEEEE;
+  padding: 20px 15px 15px 15px;
+  border-radius: 20px;
+  min-width: 270px;
+  margin: 20px 5px;
+  letter-spacing: 0.5px;
+  box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.1);
+  transition: all 0.1s ease;
+  max-width: 300px;
+  text-align: center;
+}
+.card:hover
+{
+  box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.1);
+  transform: scale(1.05);
+}
+.name
+{
+  font-size: 18px;
+  color: #000000bd;
+  padding-bottom: 0px;
+  font-weight: 600;
+}
+.symbol
+{
+  font-size: 15px;
+  color: #777;
+  padding-bottom: 10px;
+}
+.price
+{
+  border: 5px solid rgb(157, 166, 182);
+  border-radius: 50%;
+  width: 150px;
+  padding: 18px 10px;
+  font-size: 20px;
+  margin: auto;
+  margin-bottom: 7px;
+  font-weight: bold;
+  color:#000
+}
+
+.img-holder
+{
+  margin-bottom: 10px;
+}
+.img-holder img
+{
+  max-width: 70px;
+}
+
+.positive
+{
+  color: #1146d8!important;
+}
+
+.negative
+{
+  color: #f00606!important;
+}
+
+.market-cap
+{
+  font-size: 16px;
+  color: #868e96;
+  margin-bottom: 5px;
+}
+.volume-cap
+{
+  font-size: 16px;
+  color: #868e96;
+}
+
+.status > p
+{ 
+  color:#525b59;
+  display: inline-block;
+  margin-right: 5px;
+  margin-bottom: 12px;
+}
+
+.d-none{
+  display: none;
+}
+
+
+@media only screen and (max-width: 768px)
+{
+  .indiv-card
+  {
+    margin: auto;
+    margin-bottom: 20px;
+  }
+}
